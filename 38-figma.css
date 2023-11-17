@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background-color: rgb(59, 93, 80);
+  height: 610px;
+}
+.navbar {
+  color: white;
+  font-size: 16px;
+  height: 60px;
+  /* background-color: red; */
+  padding: 0 140px 0 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 70px;
+  object-fit: contain;
+}
+.section2 {
+  display: flex;
+  gap: 30px;
+}
+
+.section2 p {
+  border-bottom: 3px solid rgb(59, 93, 80);
+}
+
+.section2 p:hover {
+  border-bottom: 3px solid rgb(231, 231, 5);
+  cursor: pointer;
+}
+
+.home {
+  border-bottom: 3px solid rgb(231, 231, 5) !important;
+  padding-bottom: 5px;
+}
+.heading {
+  display: flex;
+  margin-top: 120px;
+  justify-content: space-between;
+  padding-left: 130px;
+  padding-right: 130px;
+  align-items: center;
+  color: white;
+}
+.heading-text {
+  font-size: 50px;
+  width: 500px;
+  font-weight: 500;
+}
+.shop img {
+  width: 600px;
+  margin-left: 100px;
+}
+.shop {
+  display: flex;
+  align-items: center;
+  /* padding-left: 70px; */
+  margin-left: 120px;
+  margin-top: -90px;
+  /* position: relative; */
+}
+.shop button {
+  height: fit-content;
+  border: none;
+  border-radius: 30px;
+  padding: 5px 10px;
+  background-color: rgb(249, 191, 41);
+}
+.card1 {
+  height: 360px;
+  width: 250px;
+}
+
+.card1 p {
+  margin-top: 30px;
+  opacity: 0.8;
+}
+.card1 button {
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: black;
+  border: none;
+  color: white;
+  margin-top: 40px;
+}
+.card2 {
+  height: 360px;
+  width: 280px;
+}
+.box {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(221, 229, 228);
+  border-radius: 30px;
+  margin-top: 80px;
+}
+.card2 img {
+  width: 260px;
+
+  margin-top: -110px;
+}
+.box h1 {
+  font-size: 20px;
+  text-align: center;
+}
+.box i {
+  font-size: 30px;
+  margin-left: 120px;
+  margin-top: 80px;
+}
+.card3 h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-left: -50px;
+  margin-top: 40px;
+}
+.card3 p {
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 60px;
+  font-weight: bold;
+}
+.card3 {
+  height: 360px;
+  width: 280px;
+}
+.card4 h1 {
+  font-size: 20px;
+  text-align: center;
+}
+.card4 {
+  height: 360px;
+  width: 280px;
+}
+.card4 h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-left: -50px;
+  margin-top: 50px;
+}
+
+.card4 p {
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 60px;
+  font-weight: bold;
+}
+.card1 h1 {
+  font-size: 28px;
+  text-align: left;
+  width: 220px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 125px;
+  margin-top: 120px;
+  padding: 0 30px;
+}
+.section3 {
+  padding: 160px 200px;
+}
+.side1 h1 {
+  font-weight: 550;
+  width: 300px;
+}
+.side1 p {
+  margin-top: 30px;
+  width: 500px;
+}
+
+.why-choose-us {
+  font-size: 40px;
+}
+.feature-pro-h {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.feature-pro-p {
+  width: 220px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.row1 {
+  margin-top: 100px;
+  display: flex;
+}
+.feature1 {
+  width: fit-content;
+}
+.row2 {
+  margin-top: 100px;
+  display: flex;
+}
+.section3 {
+  display: flex;
+}
+.side2 {
+  position: relative;
+}
+.why-image {
+  width: 450px;
+  height: 629.104px;
+  z-index: 2;
+}
+.dot-image {
+  position: absolute;
+  top: -50px;
+  z-index: 3;
+}
